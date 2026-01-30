@@ -1,3 +1,5 @@
+@import url(https://fonts.bunny.net/css?family=abril-fatface:400|albert-sans:200);
+
 * {
     padding: 0;
     margin: 0;
@@ -12,6 +14,9 @@ body {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+.full {
+    display: flex;
+}
 
 .image-sidebar {
     color: white;
@@ -52,4 +57,25 @@ body {
 
 .sidebar-credit a {
     color: white;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.intro-text {
+    padding: 18px;
+    margin-left: 20px;
+}
+
+.intro-main {
+    font-family: 'Abril Fatface', display;
+    font-size: 1.8rem;
+}
+
+.intro-sub {
+    font-family: 'Albert Sans', sans-serif;
 }
